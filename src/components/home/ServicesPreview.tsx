@@ -3,11 +3,19 @@ import { SERVICES } from "@/config/siteConfig";
 import serviceIgiene from "@/assets/service-igiene.jpg";
 import serviceImplanti from "@/assets/service-implanti.jpg";
 import serviceEstetica from "@/assets/service-estetica.jpg";
+import serviceImplantologia from "@/assets/Implantologia.png";
+import serviceProtesiDentali from "@/assets/Protesi-Dentali.png";
+import serviceEndodonzia from "@/assets/Endodonzia.png";
+import serviceOdontoiatriaConservativa from "@/assets/OdontoiatriaConservativa.png";
 
 const imageMap: Record<string, string> = {
   "service-igiene": serviceIgiene,
   "service-implanti": serviceImplanti,
   "service-estetica": serviceEstetica,
+  "Implantologia.png": serviceImplantologia,
+  "Protesi-Dentali.png": serviceProtesiDentali,
+  "Endodonzia.png": serviceEndodonzia,
+  "OdontoiatriaConservativa.png": serviceOdontoiatriaConservativa,
 };
 
 const ServicesPreview = () => {

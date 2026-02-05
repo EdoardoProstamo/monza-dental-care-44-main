@@ -10,7 +10,7 @@ export const SITE_CONFIG = {
   // Dati struttura
   name: "Galbiati Dr. Matteo",
   category: "Studio Dentistico",
-  
+
   // Contatti
   address: {
     street: "Via Achille Varisco, 3",
@@ -22,13 +22,13 @@ export const SITE_CONFIG = {
   },
   phone: "+39 039 322148",
   phoneDisplay: "039 322148",
-  
+
   // P.IVA - DA INSERIRE
   piva: "DA INSERIRE",
-  
+
   // Link esterni
   googleMapsUrl: "https://maps.google.com/?q=Via+Achille+Varisco+3+Monza+MB+Italia",
-  
+
   // Orari - DA INSERIRE
   hours: [
     { day: "Lunedì", time: "DA INSERIRE" },
@@ -39,14 +39,14 @@ export const SITE_CONFIG = {
     { day: "Sabato", time: "Chiuso" },
     { day: "Domenica", time: "Chiuso" },
   ],
-  
+
   // SEO
   seo: {
     title: "Studio Dentistico Galbiati Dr. Matteo | Dentista a Monza",
     description: "Studio dentistico a Monza. Il Dr. Matteo Galbiati offre servizi di odontoiatria, igiene dentale, implantologia e estetica dentale. Prenota una visita.",
     keywords: ["dentista Monza", "studio dentistico Monza", "clinica dentale Monza", "odontoiatra Monza"],
   },
-  
+
   // Link recensioni Google - DA INSERIRE
   googleReviewsUrl: "DA INSERIRE",
 } as const;
@@ -54,25 +54,25 @@ export const SITE_CONFIG = {
 export const SITE_THEME = {
   // Palette colori
   palette: "Elegant Navy", // bianco + blu notte + accento oro tenue
-  
+
   // Stile hero
   heroStyle: "centered", // Hero centrato con immagine piena e titolo in evidenza
-  
+
   // Presentazione servizi
   servicesLayout: "vertical-cards", // Cards verticali con immagini e testo descrittivo
-  
+
   // Elementi grafici
   graphicElements: "minimal-lines", // Linee sottili minimal e separatori eleganti
-  
+
   // Gradienti
   gradients: "cta-only", // Gradient leggerissimo applicato solo alla sezione CTA
-  
+
   // Ordine sezioni home
   homeSections: ["hero", "services", "strengths", "reviews", "faq", "contacts"],
-  
+
   // Font
   fontFamily: "system", // SOLO font di sistema (no Google Fonts)
-  
+
   // Animazioni
   animations: {
     type: "light", // Solo animazioni leggere e professionali
@@ -93,7 +93,7 @@ export const SERVICES = [
     id: "implantologia",
     title: "Implantologia",
     description: "Soluzioni implantari moderne per il ripristino di denti mancanti, con tecniche minimamente invasive e risultati naturali.",
-    image: "service-implanti",
+    image: "Implantologia.png",
   },
   {
     id: "estetica",
@@ -105,19 +105,19 @@ export const SERVICES = [
     id: "conservativa",
     title: "Odontoiatria Conservativa",
     description: "Trattamento delle carie e ricostruzioni dentali con materiali di ultima generazione per risultati duraturi.",
-    image: "service-igiene",
+    image: "OdontoiatriaConservativa.png",
   },
   {
     id: "endodonzia",
     title: "Endodonzia",
     description: "Terapie canalari precise e indolori per salvare i denti compromessi, utilizzando tecnologie all'avanguardia.",
-    image: "service-implanti",
+    image: "Endodonzia.png",
   },
   {
     id: "protesi",
     title: "Protesi Dentarie",
     description: "Protesi fisse e mobili personalizzate, realizzate con materiali di alta qualità per funzionalità ed estetica ottimali.",
-    image: "service-estetica",
+    image: "Protesi-Dentali.png",
   },
 ] as const;
 
